@@ -294,7 +294,6 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
                                 Bitmap.Config.ARGB_8888
                             )
                         }
-
                         detectObjects(image)
                     }
                 }
